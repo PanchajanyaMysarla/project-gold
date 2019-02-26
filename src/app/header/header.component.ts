@@ -51,5 +51,7 @@ export class HeaderComponent implements OnInit {
       }
     ];
   }
+
+  addNewProduct() { }
 }
 
