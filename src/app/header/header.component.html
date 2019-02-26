@@ -1,0 +1,16 @@
+<h1>Project GOLD</h1>
+
+<p-menubar [model]="items">
+    <div>
+        <a (click)="addNewProduct()">Add New Product</a>
+        <input
+            type="text"
+            pInputText
+            placeholder="Search">
+        <button
+            pButton
+            label="Logout"
+            icon="fa fa-sign-out"
+            style="margin-left:.25em"></button>
+    </div>
+</p-menubar>
