@@ -27,24 +27,38 @@ export class HeaderComponent implements OnInit {
             label: 'Gold',
             icon: 'pi pi-fw pi-plus',
             items: [
-              { label: 'Neclace' },
-              { label: 'Rings' },
+              {
+                label: 'Neclace',
+                routerLink: '/inventory/gold/neclace'
+              },
+              {
+                label: 'Rings',
+                routerLink: '/inventory/gold/rings'
+              },
             ]
           },
           {
             label: 'Silver',
             icon: 'pi pi-fw pi-plus',
             items: [
-              { label: 'Bracelets' },
-              { label: 'Earrings' },
+              {
+                label: 'Bracelets', routerLink: '/inventory/silver/bracelets'
+              },
+              {
+                label: 'Earrings', routerLink: '/inventory/silver/earrings'
+              },
             ]
           },
           {
             label: 'Pearl',
             icon: 'pi pi-fw pi-plus',
             items: [
-              { label: 'Neclace' },
-              { label: 'Rings' },
+              {
+                label: 'Neclace', routerLink: '/inventory/pearl/neclace'
+              },
+              {
+                label: 'Rings', routerLink: '/inventory/pearl/rings'
+              },
             ]
           }
         ]
